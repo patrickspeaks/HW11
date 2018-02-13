@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>index</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/StyleSheet.css">
+    <script src="js/Script.js"></script>
+
+</head>
+
+<body align="center">
+
+    <h1 align="center">The Temperature Calculator</h1>
+
+    
+    <p>
+       Temperature :
+       <input id="temp" type="text" name="temperature" maxlength="3" /> &nbsp; &nbsp;
+    </p>
+    
+
+    
+    <p>
+       Convert to:
+       <input id="c" type="radio" name="degree" checked="checked" /> Celsius
+       <input id="f" type="radio" name="degree" /> Fahrenheit
+    </p>
+    
+
+    <button id="convert" class="button">Convert</button>
+
+
+
+    
+
+    <p>
+       Result:
+       <input id="result" type="text" name="degree" maxlength="3" />
+    </p>
+
+    
+
+    <p>0<sup>o</sup>C = 32<sup>o</sup>F</p>
+
+    <button id="tryagain" onclick="clearfields()" class="button">Try Again</button> &nbsp; &nbsp;
+
+    <button id="getout" class="button">Exit</button>
+
+    <h1 id="goodbye"></h1>
+
+
+
+</body>
+</html>
