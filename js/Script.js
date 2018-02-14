@@ -59,7 +59,15 @@ function clearfields() {
 }
 
 
+//$("#getout").bind("click", function () {
+//    getrandomNum()
+//});
 
+
+function fadeout () {
+    $("#fadeout").fadeOut(1000).delay(1000);
+    $("#goodbye").text("GoodBye").fadeIn(1000);
+};
 
        
 
